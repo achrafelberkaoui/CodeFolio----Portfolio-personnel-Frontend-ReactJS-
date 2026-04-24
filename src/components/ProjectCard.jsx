@@ -2,7 +2,7 @@ function ProjectCard({ title, description }) {
   return (
     <div className="bg-white shadow-lg rounded-xl p-5 hover:scale-105 transition duration-300">
 
-      <h2 className="text-xl font-bold mb-2">
+      <h2 className="text-gray-600">
         {title}
       </h2>
 

@@ -10,9 +10,8 @@ function Skills() {
 
       <div className="flex flex-wrap gap-4">
 
-        {skills.map((s, i) => (
+        {skills.map((s) => (
           <span
-            key={i}
             className="bg-blue-100 text-blue-600 px-4 py-2 rounded-full"
           >
             {s}
